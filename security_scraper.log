@@ -1,0 +1,25 @@
+2025-06-20 15:11:17,662 - __main__ - INFO - Starting weekly Adobe Commerce security scrape
+2025-06-20 15:11:17,662 - __main__ - INFO - Scraping Adobe security page: https://helpx.adobe.com/security.html
+2025-06-20 15:11:27,903 - utils - WARNING - Request failed for https://helpx.adobe.com/security.html (attempt 1): HTTPSConnectionPool(host='helpx.adobe.com', port=443): Read timed out. (read timeout=10)
+2025-06-20 15:11:27,904 - utils - INFO - Retrying in 2 seconds...
+2025-06-20 15:11:39,962 - utils - WARNING - Request failed for https://helpx.adobe.com/security.html (attempt 2): HTTPSConnectionPool(host='helpx.adobe.com', port=443): Read timed out. (read timeout=10)
+2025-06-20 15:11:39,962 - utils - INFO - Retrying in 2 seconds...
+2025-06-20 15:11:52,025 - utils - WARNING - Request failed for https://helpx.adobe.com/security.html (attempt 3): HTTPSConnectionPool(host='helpx.adobe.com', port=443): Read timed out. (read timeout=10)
+2025-06-20 15:11:52,025 - utils - ERROR - All retry attempts failed for https://helpx.adobe.com/security.html
+2025-06-20 15:11:52,026 - __main__ - INFO - Scraping release notes page: https://experienceleague.adobe.com/docs/commerce-operations/release/release-notes/overview.html
+2025-06-20 15:11:53,490 - utils - WARNING - Request failed for https://experienceleague.adobe.com/docs/commerce-operations/release/release-notes/overview.html (attempt 1): 404 Client Error: Not Found for url: https://experienceleague.adobe.com/en/docs/commerce-operations/release/release-notes/overview
+2025-06-20 15:11:53,491 - utils - INFO - Retrying in 2 seconds...
+2025-06-20 15:11:55,540 - utils - WARNING - Request failed for https://experienceleague.adobe.com/docs/commerce-operations/release/release-notes/overview.html (attempt 2): 404 Client Error: Not Found for url: https://experienceleague.adobe.com/en/docs/commerce-operations/release/release-notes/overview
+2025-06-20 15:11:55,541 - utils - INFO - Retrying in 2 seconds...
+2025-06-20 15:11:57,571 - utils - WARNING - Request failed for https://experienceleague.adobe.com/docs/commerce-operations/release/release-notes/overview.html (attempt 3): 404 Client Error: Not Found for url: https://experienceleague.adobe.com/en/docs/commerce-operations/release/release-notes/overview
+2025-06-20 15:11:57,571 - utils - ERROR - All retry attempts failed for https://experienceleague.adobe.com/docs/commerce-operations/release/release-notes/overview.html
+2025-06-20 15:11:57,571 - __main__ - INFO - Scraping patches page: https://experienceleague.adobe.com/docs/commerce-operations/upgrade/quality-patches/overview.html
+2025-06-20 15:12:00,034 - utils - WARNING - Request failed for https://experienceleague.adobe.com/docs/commerce-operations/upgrade/quality-patches/overview.html (attempt 1): 404 Client Error: Not Found for url: https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade/quality-patches/overview
+2025-06-20 15:12:00,034 - utils - INFO - Retrying in 2 seconds...
+2025-06-20 15:12:02,071 - utils - WARNING - Request failed for https://experienceleague.adobe.com/docs/commerce-operations/upgrade/quality-patches/overview.html (attempt 2): 404 Client Error: Not Found for url: https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade/quality-patches/overview
+2025-06-20 15:12:02,071 - utils - INFO - Retrying in 2 seconds...
+2025-06-20 15:12:04,104 - utils - WARNING - Request failed for https://experienceleague.adobe.com/docs/commerce-operations/upgrade/quality-patches/overview.html (attempt 3): 404 Client Error: Not Found for url: https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade/quality-patches/overview
+2025-06-20 15:12:04,104 - utils - ERROR - All retry attempts failed for https://experienceleague.adobe.com/docs/commerce-operations/upgrade/quality-patches/overview.html
+2025-06-20 15:12:04,104 - __main__ - INFO - Report saved to weekly_security_report.md
+2025-06-20 15:12:04,104 - __main__ - INFO - Backup report saved to weekly_security_report_20250620_151204.md
+2025-06-20 15:12:04,104 - __main__ - INFO - Weekly scrape completed. Found 0 security items.
